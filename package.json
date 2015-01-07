@@ -2,18 +2,27 @@
   "name": "frontendweekly.tokyo",
   "version": "1.0.0",
   "description": "frontendweekly.tokyo",
+  "dependencies": {
+    "cssnext": "^0.6.6"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "(hugo server --watch &)",
     "build": "hugo"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studiomohawk/frontendweekly.tokyo.git"
+  },
   "keywords": [
-    "landing-page",
-    "hugo"
+    "hugo",
+    "website"
   ],
   "author": "Yuya Saito",
   "contributors": ["Koji Ishimoto", "Hiroki Tani"],
   "license": "MIT",
-  "devDependencies": {
-    "cssnext": "^0.6.6"
-  }
+  "bugs": {
+    "url": "https://github.com/studiomohawk/frontendweekly.tokyo/issues"
+  },
+  "homepage": "http://frontendweekly.tokyo"
 }
