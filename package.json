@@ -11,7 +11,7 @@
     "hugo"
   ],
   "author": "Yuya Saito",
-  "contributors": ["Koji Ishimoto", "Hiroki Tani"]
+  "contributors": ["Koji Ishimoto", "Hiroki Tani"],
   "license": "MIT",
   "devDependencies": {
     "cssnext": "^0.6.6"
