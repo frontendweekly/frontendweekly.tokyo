@@ -4,5 +4,5 @@ contentdir = "content"
 layoutdir = "layouts"
 staticdir = "static"
 publishdir = "public"
-uglyUrls = true
+uglyUrls = false
 metaDataFormat = "yaml"
