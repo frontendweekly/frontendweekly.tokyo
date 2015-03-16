@@ -7,28 +7,27 @@
  * CONTENTS
  *
  * BASE
- * Page.................Page-level styles (`<body>`).
- * Headings.............Heading styles
- * Type.................Misc type styles
- * Links................Hyperlink styles
- * Lists................inuitcss list styles
- * Images...............inuitcss images
- * Quotes...............Styling for blockquotes, etc.
+ * Page..................Page-level styles (`<body>`).
  *
- * OBJECTS
- * Wrappers.............Wrappers and page constraints.
- * Button..............inuitcss’ buttons module.
- * Layout...............inuitcss’ layout tool.
- * Box..................inuitcss’ box object.
- * Media................The media object.
- * Flag.................The flag object.
- * UI list..............inuitcss’ UI list.
+ * ITEMS
+ * Input.................Wrappers and page constraints.
+ * Button................inuitcss’ buttons module.
  *
- * COMPONENTS
- * Page-head............Page header styles.
+ * SECTIONS
+ * Header................Page header styles.
+ * Logo..................Frontend Weekly logo.
+ * Subscribe.............Embed subscrivbe form.
+ * Features..............Weekly, Translation and Free.
+ * Archive...............Past articles.
+ * Curators..............Frontend guys.
+ * Closing...............Please subscribe me.
+ * Footer................Contentinfo.
  *
- * TRUMPS
- * Clearfix.............I can’t believe we still need this in 2014.
+ * Tool
+ * Clearfix..............Clearing floats layout.
+ *
+ * Third Party
+ * Mailchimp.............Override Mailchimp css.
  */
 
 /**
@@ -79,15 +78,6 @@ img {
   .container {
     width: 1000px;
   }
-}
-
-/* ### Google Font */
-.gf {
-  letter-spacing: .05em;
-  font-family: 'Noto Serif', serif;
-  /* font-family: 'Marcellus', serif; */
-  /* font-family: 'Libre Baskerville', serif; */
-  /* font-family: 'Droid Serif', serif; */
 }
 
 /**
@@ -145,6 +135,8 @@ img {
   color: #FFF;
 }
 .header-sitename {
+  letter-spacing: .05em;
+  font-family: 'Bangla MN', 'Noto Serif', serif;
   font-size: 1.6rem;
 }
 @media (min-width: 639px) {
@@ -191,7 +183,6 @@ img {
 }
 .logo > img {
   width: 120px;
-  /* width: 180px; */
 }
 @media (min-width: 1180px) {
   .logo {
@@ -199,12 +190,11 @@ img {
   }
   .logo > img {
     width: 170px;
-    /* width: 180px; */
   }
 }
 
 
-/* ### be */
+/* ### Subscribe */
 .subscribe {
   position: relative;
   display: inline-block;
@@ -289,7 +279,6 @@ img {
   padding-top: 1.5rem;
   /* padding-bottom: 1.5rem; */
   text-align: center;
-  background-color: #727272;
   background-color: #A3B9C4;
 }
 .archive-link {
@@ -319,13 +308,15 @@ img {
 .curators-title {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  letter-spacing: .05em;
+  font-family: 'Bangla MN', 'Noto Serif', serif;
 }
 .curators-list {
   margin-bottom: 0;
 }
 @media (min-width: 639px) {
   .curators-title {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
   .curators-list {
     display: flex;
@@ -400,7 +391,6 @@ img {
     height: 160px;
   }
 }
-
 
 /* ### Closing */
 .closing {
