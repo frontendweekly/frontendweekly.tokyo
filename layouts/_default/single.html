@@ -1,20 +1,13 @@
-{{ template "theme/partials/head.html" . }}
-<body id="single">
-  {{ template "theme/partials/header.html" . }}
-
-  <section class="post-symbol {{ .Params.color }}">
-    <i class="symbol fa fa-{{ .Params.icon }}"></i>
-    <p class="description">{{ .Description }}</p>
-  </section>
-
-  <div id="content-container">
-    <div class="post">
-      <h1>{{ .Title }}</h1>
-      <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-      <p class="post-content">{{ .Description }}</p>
-    </div>
-
-    {{ template "theme/partials/disqus.html" . }}
-  </div>
-</body>
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ template "partials/meta.html" . }}
+  </head>
+  <body>
+    {{ template "partials/header.html" . }}
+    <main>
+      {{ .Content }}
+    </main>
+    {{ template "partials/footer.html" . }}
+  </body>
 </html>
