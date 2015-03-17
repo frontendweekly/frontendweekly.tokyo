@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ template "partials/meta.html" . }}
+  </head>
+  <body>
+    {{ template "partials/header.html" . }}
+    <main>
+      <h1>Archives</h1>
+      <ul>
+        {{ range .Data.Pages }}
+        <li>
+          <date>{{ .Date.Format "2006.01.02" }}</date>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </li>
+        {{ end }}
+      </ul>
+    </main>
+    {{ template "partials/footer.html" . }}
+  </body>
+</html>
