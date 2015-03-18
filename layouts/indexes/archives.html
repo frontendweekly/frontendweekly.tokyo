@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="ja">
   <head>
-    {{ template "partials/meta.html" . }}
+    {{ partial "meta.html" . }}
   </head>
   <body>
-    {{ template "partials/header.html" . }}
+    {{ partial "header.html" . }}
     <main>
       <h1>Archives</h1>
       <ul>
@@ -16,6 +16,6 @@
         {{ end }}
       </ul>
     </main>
-    {{ template "partials/footer.html" . }}
+    {{ partial "footer.html" . }}
   </body>
 </html>

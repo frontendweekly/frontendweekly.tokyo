@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="ja">
   <head>
-    {{ template "partials/meta.html" . }}
+    {{ partial "meta.html" . }}
   </head>
   <body>
-    {{ template "partials/header.html" . }}
+    {{ partial "header.html" . }}
 
     <div class="features">
       <div class="container">
@@ -143,7 +143,7 @@
       </div>
     </div>
 
-    {{ template "partials/footer.html" . }}
+    {{ partial "footer.html" . }}
 
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='NAME';ftypes[3]='text'; /*
