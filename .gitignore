@@ -54,3 +54,5 @@ _testmain.go
 *.prof
 
 public
+
+.idea
