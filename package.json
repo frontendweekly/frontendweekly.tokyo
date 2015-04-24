@@ -4,7 +4,8 @@
   "description": "frontendweekly.tokyo",
   "scripts": {
     "start": "hugo server --watch",
-    "build": "hugo"
+    "build": "hugo",
+    "deploy": ". deploy.sh"
   },
   "repository": {
     "type": "git",
