@@ -1,0 +1,19 @@
+{
+  "bitwise": true,
+  "browser": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esnext": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": "nofunc",
+  "maxlen": 80,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "strict": true,
+  "trailing": true,
+  "undef": true,
+  "unused": true
+}

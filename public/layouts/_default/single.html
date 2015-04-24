@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ template "partials/meta.html" . }}
+  </head>
+  <body>
+    {{ template "partials/header.html" . }}
+    <main>
+      {{ .Content }}
+    </main>
+    {{ template "partials/footer.html" . }}
+  </body>
+</html>
