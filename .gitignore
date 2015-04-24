@@ -36,6 +36,7 @@ node_modules/*
 # Folders
 _obj
 _test
+public
 
 # Architecture specific extensions/prefixes
 *.[568vq]
