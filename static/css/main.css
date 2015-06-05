@@ -407,6 +407,29 @@ img {
   }
 }
 
+/* ### Back Numbers */
+.backnumbers {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #F8F8F8;
+  text-align: left;
+}
+.backnumber__date {
+  float: right;
+  font-size: 0.8rem;
+  vertical-align: text-bottom;
+}
+
+/** Markdown **/
+.markdown {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #F8F8F8;
+  text-align: left;
+}
+
 /* ### Closing */
 .closing {
   padding-top: 3rem;
