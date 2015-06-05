@@ -5,17 +5,22 @@
   </head>
   <body>
     {{ partial "header.html" . }}
-    <main>
-      <h1>Back Numbers</h1>
-      <ul>
+
+    <div class="backnumbers">
+      <div class="container">
+        <ul class="backnumbers-list">
         {{ range .Data.Pages }}
-        <li>
-          <date>{{ .Date.Format "2006.01.02" }}</date>
-          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        </li>
+          <li class="backnumber">
+            <h2 class="backnumber__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <date class="backnumber__date">{{ .Date.Format "2006.01.02" }}</date>
+            </h2>
+            <p class="backnumber__description">{{ .Description }}</p>
+          </li>
         {{ end }}
-      </ul>
-    </main>
+        </ul>
+      </div>
+    </div>
     {{ partial "footer.html" . }}
   </body>
 </html>
