@@ -1,4 +1,4 @@
-box: wercker/nodejs
+box: _/node
 build:
   steps:
     - arjen/hugo-build:
