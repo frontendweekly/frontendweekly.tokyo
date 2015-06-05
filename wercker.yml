@@ -1,4 +1,4 @@
-box: _/node
+box: node
 build:
   steps:
     - arjen/hugo-build:
