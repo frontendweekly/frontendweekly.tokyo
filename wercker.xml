@@ -1,0 +1,11 @@
+box: wercker/nodejs
+build:
+  steps:
+    - arjen/hugo-build:
+        version: 0.12
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+        token: $GITHUB_TOKEN
+        domain: frontendweekly.tokyo
+        basedir: public
