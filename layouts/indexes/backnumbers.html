@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    <div class="backnumbers">
+      <div class="container">
+        <ul class="backnumbers-list">
+        {{ range .Data.Pages }}
+          <li class="backnumber">
+            <h2 class="backnumber__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <date class="backnumber__date">{{ .Date.Format "2006.01.02" }}</date>
+            </h2>
+            <p class="backnumber__description">{{ .Description }}</p>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
