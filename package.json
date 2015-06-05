@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/studiomohawk/frontendweekly.tokyo.git"
+    "url": "https://github.com/frontendweekly/frontendweekly.tokyo.git"
   },
   "keywords": [
     "hugo",
     "website"
   ],
   "author": "Yuya Saito",
-  "contributors": ["Koji Ishimoto", "Hiroki Tani"],
+  "contributors": ["Koji Ishimoto", "Hiroki Tani", "Ayumu Sato", "Shogo Sensui"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/studiomohawk/frontendweekly.tokyo/issues"
+    "url": "https://github.com/frontendweekly/frontendweekly.tokyo/issues"
   },
   "homepage": "http://frontendweekly.tokyo"
 }
