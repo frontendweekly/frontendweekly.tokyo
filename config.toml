@@ -1,8 +1,0 @@
-baseurl = "http://frontendweekly.tokyo"
-title = "Frontend Weekly"
-contentdir = "content"
-layoutdir = "layouts"
-staticdir = "static"
-publishdir = "public"
-uglyUrls = false
-metaDataFormat = "yaml"
