@@ -1,4 +1,4 @@
-baseurl: "http://frontendweekly.tokyo"
+baseurl: "https://frontendweekly.tokyo"
 title: "Frontend Weekly"
 contentdir: "content"
 layoutdir: "layouts"
