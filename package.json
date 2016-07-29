@@ -1,23 +1,14 @@
 {
   "name": "frontendweekly.tokyo",
-  "version": "1.0.0",
+  "private": true,
   "description": "frontendweekly.tokyo",
   "scripts": {
     "start": "hugo server --watch",
-    "build": "hugo",
-    "deploy": ". deploy.sh"
+    "build": "hugo"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/frontendweekly/frontendweekly.tokyo.git"
-  },
-  "keywords": [
-    "hugo",
-    "website"
-  ],
+  "repository": "frontendweekly/frontendweekly.tokyo",
   "author": "Yuya Saito",
-  "contributors": ["Koji Ishimoto", "Hiroki Tani", "Ayumu Sato", "Shogo Sensui"],
-  "license": "MIT",
+  "contributors": ["Koji Ishimoto", "Hiroki Tani", "Ayumu Sato", "Shogo Sensui", "Satoru Hiraki"],
   "bugs": {
     "url": "https://github.com/frontendweekly/frontendweekly.tokyo/issues"
   },

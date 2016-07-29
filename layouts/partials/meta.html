@@ -3,12 +3,16 @@
 <meta name="description" content="Frontend Weekly is a weekly e-mail roundup of frontend articles, tutorials, videos/slides and tools.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta property="og:title" content="Frontend Weekly">
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:image" content="/img/og.png">
-<meta property="og:description" content="Frontend Weekly is a weekly e-mail roundup of frontend articles, tutorials, videos/slides and tools.">
+{{ if .IsPage }}
+  <meta property="og:description" content="{{ .Summary }}">
+{{ else }}
+  <meta property="og:description" content="Frontend Weekly is a weekly e-mail roundup of frontend articles, tutorials, videos/slides and tools.">
+{{ end }}
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://frontendweekly.tokyo" >
-<meta property="og:site_name" content="Frontend Weekly">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@frontend_weekly">
