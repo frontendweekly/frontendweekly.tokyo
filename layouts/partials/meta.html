@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta property="og:title" content="{{ .Title }}">
-<meta property="og:image" content="/img/logo.png">
+<meta property="og:image" content="{{ .Site.BaseURL }}/img/logo.png">
 {{ if .IsPage }}
   <meta property="og:description" content="{{ .Summary }}">
 {{ else }}
@@ -17,8 +17,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@frontend_weekly">
 
-<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/img/apple-touch-icon.png">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700">
