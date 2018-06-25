@@ -1,0 +1,25 @@
+{
+  "name": "frontendweekly.tokyo",
+  "version": "1.0.0",
+  "description": "[Frontend Weekly](https://frontendweekly.tokyo) is a weekly e-mail roundup of frontend articles, tutorials, videos/slides and tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendweekly/frontendweekly.tokyo.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Yuya Saito <cssradar@gmail.com> (https://github.com/studiomohawk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontendweekly/frontendweekly.tokyo/issues"
+  },
+  "homepage": "https://github.com/frontendweekly/frontendweekly.tokyo#readme",
+  "devDependencies": {
+    "microgen": "^1.1.3"
+  }
+}
