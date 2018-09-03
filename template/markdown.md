@@ -8,10 +8,6 @@ description:
 
 ## Headlines
 
-## アンケートにご協力ください!
-
-Frontend Weeklyに関する調査をおこないたく、アンケートを実施しています。Frontend Weeklyについてのいくつかの項目を設けていますので、お時間いただけると幸いです。
-
-**[アンケートはこちらから](https://docs.google.com/forms/d/e/1FAIpQLSdanFCMkLg5NAsTPW96tx3sIHGjtRq3Xh9A3BdfEbTFAUmtgQ/viewform)**
+## Book
 
 ## In Brief
